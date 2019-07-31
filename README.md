@@ -6,14 +6,14 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.6770&rep=rep1&type=
 の手法を用いてます。<br>
 (実行時に注意事項は大事だったりします)
 
-###実行環境
+### 実行環境
 - Mac OS Sierra 10.12.6
 - gcc 6.5.0
 - opencv 4.1.0
 - Eigen3
 - CMake(3.8.2)
 
-###環境構築
+### 環境構築
 以下のライブラリを用いています<br>
 - Eigen3
 - OpenCV
@@ -59,7 +59,7 @@ makeが完了すれば以下で実行できます。
 </p>
 
 #### その他
-#####Fittingの具合の調整
+##### Fittingの具合の調整
 Up/Downマスの下にある数字はFittingでの元曲線たちに対する追従度であり、<br>
 小さいほど滑らかになり<br>
 
@@ -76,7 +76,7 @@ Up/Downマスの下にある数字はFittingでの元曲線たちに対する追
 Up/Downマスまたは対応方向キーを押せば値を上下させることができ、<br>
 Fitting曲線が表示されている間はその値に追従します。
 
-#####Undo/Redo
+##### Undo/Redo
 Undo/Redoマスまたはz/xキーを押すことで元に戻す/やり直すの操作を行うことができます。<br>
 しかし、引かれた曲線が消える/現れるだけなのでFittingのやり直しはできないので注意。<br>
 Fitting曲線が表示されている間に元に戻すを行うとFitting前の状態になります。
