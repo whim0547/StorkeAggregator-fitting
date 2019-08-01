@@ -36,8 +36,8 @@ cmakeを行う<br>
 
 ### 実行方法
 cmakeが終わればbuildディレクトリでmakeを行う<br>
-`$ make`
-makeが完了すれば以下で実行できます。
+`$ make`<br>
+makeが完了すれば以下で実行できます。<br>
 `$ ./main`
 
 ### 操作方法
