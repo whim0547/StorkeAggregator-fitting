@@ -28,10 +28,10 @@ EigenやOpenCVのインクルードパスはCMakeFile.txtから各自設定し�
 `include_directories( /usr/local/include/eigen3 )` <br>
 
 cmakeを行う<br>
-`$ cd
-$ mkdir build
-$ cd build
-$ cmake ..`
+`$ cd` <br>
+`$ mkdir build` <br>
+`$ cd build` <br>
+`$ cmake ..` <br>
 
 
 ### 実行方法
