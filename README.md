@@ -23,9 +23,9 @@ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.103.6770&rep=rep1&type=
 
 EigenやOpenCVのインクルードパスはCMakeFile.txtから各自設定してください。<br>
 以下の部分を変更すれば良いはずです。<br>
-`find_package( OpenCV REQUIRED )
-include_directories( ${OpenCV_INCLUDE_DIRS} )
-include_directories( /usr/local/include/eigen3 )`
+`find_package( OpenCV REQUIRED )` <br>
+`include_directories( ${OpenCV_INCLUDE_DIRS} )` <br>
+`include_directories( /usr/local/include/eigen3 )` <br>
 
 cmakeを行う<br>
 `$ cd
