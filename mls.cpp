@@ -177,6 +177,7 @@ tuple<Point, Point, double> Collect2(Point p, Point p_star, vector<Point> A, dou
 
     vector<Point> A_hat = rotate(A, p_star, M_PI / 4 - theta);
     // vector<Point> A_hat = rotate(A, new_p_star, M_PI / 4 - theta);
+    if(A.size() == t.vertex.size()) break;
     h += eh;
     ro = calcRo(A_hat);
     // std::cout << ++count << " " << ro << std::endl;
